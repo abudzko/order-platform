@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      context: prod
+      relativeToChangelogFile: true
+      file: prod-scripts/changeLog.yml
